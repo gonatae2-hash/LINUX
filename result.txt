@@ -1,18 +1,22 @@
-=== Linux 학습 일지 웹 사이트 ===
-작성일: 2026. 02. 04. (수) 13:05:34 KST
+=== Linux 학습 일지 웹사이트 ===
+작성일: 2026. 02. 04. (수) 13:24:43 KST
 
 === 작성한 파일 ===
-total 24
-drwxrwxr-x 2 user1 user1 4096  2월  4 13:05 .
+total 36
+drwxrwxr-x 4 user1 user1 4096  2월  4 13:24 .
 drwxrwxr-x 9 user1 user1 4096  2월  4 12:34 ..
--rw-rw-r-- 1 user1 user1 3750  2월  4 12:39 day1.html
--rw-rw-r-- 1 user1 user1 4243  2월  4 12:43 index.html
--rw-rw-r-- 1 user1 user1  112  2월  4 13:06 result.txt
+-rw-rw-r-- 1 user1 user1 3750  2월  4 13:12 day1.html
+drwxrwxr-x 8 user1 user1 4096  2월  4 13:21 .git
+-rw-rw-r-- 1 user1 user1 4243  2월  4 13:12 index.html
+drwxrwxr-x 2 user1 user1 4096  2월  4 13:12 logs
+-rwxrwxr-x 1 user1 user1  233  2월  4 13:12 monitor.sh
+-rw-rw-r-- 1 user1 user1    0  2월  4 13:07 result.
+-rw-rw-r-- 1 user1 user1  111  2월  4 13:24 result.txt
 
 === Nginx 상태 ===
 ● nginx.service - A high performance web server and a reverse proxy server
      Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
-     Active: active (running) since Wed 2026-02-04 12:50:41 KST; 16min ago
+     Active: active (running) since Wed 2026-02-04 12:50:41 KST; 43min ago
        Docs: man:nginx(8)
     Process: 12724 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
     Process: 12725 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
